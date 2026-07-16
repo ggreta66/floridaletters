@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Author — Low Country, Low Water</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">Low Country, <em>Low Water</em></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collection.html">The Collection</a></li>
+      <li><a href="about.html" aria-current="page">The Author</a></li>
+      <li><a href="get-the-book.html">Get the Book</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom: 1rem;">
+  <div class="wrap">
+    <span class="hero-kicker">The author</span>
+    <h1 style="font-size: clamp(2rem,4vw,3rem);">[Your name here]</h1>
+  </div>
+</header>
+
+<section style="padding-top: 0;">
+  <div class="wrap about-grid">
+    <div class="portrait-frame">
+      <!-- Replace this SVG with an author photo, e.g. img/author.jpg -->
+      <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder author portrait">
+        <rect width="400" height="500" fill="#1e2a22"/>
+        <text x="200" y="250" text-anchor="middle" fill="#9c9686" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1">
+          replace with author photo
+        </text>
+        <text x="200" y="272" text-anchor="middle" fill="#7a6430" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1">
+          img/author.jpg
+        </text>
+      </svg>
+    </div>
+    <div>
+      <p class="hero-sub" style="max-width:none;">
+        [Placeholder bio — replace with your own. Something like: born and raised in
+        <em>[your part of Florida]</em>, the author has spent years collecting the small,
+        strange, humid details that make up this book: the way heat lightning looks with
+        no thunder behind it, what a sinkhole sounds like at 3am, why Cassadaga takes cash only.]
+      </p>
+      <p class="hero-sub" style="max-width:none;">
+        [A line or two about writing background, previous publications, or what drew you
+        to Southern Gothic as a form. Keep it short — a paragraph or two is plenty.]
+      </p>
+      <div class="hero-cta">
+        <a href="get-the-book.html" class="btn btn-solid">Get the book</a>
+        <a href="collection.html" class="btn btn-ghost">Read a free poem</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="foot-mono">© 2026 · Low Country, Low Water</span>
+    <span class="foot-mono">Built for the swamp, not against it</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
